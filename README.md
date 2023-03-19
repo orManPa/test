@@ -106,9 +106,9 @@ All URIs are relative to *http://Domain*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AccessServiceApi* | [**GetAllRoles**](docs\AccessServiceApi.md#getallroles) | **POST** /API3/access/getAllRoles | Get a list of all roles in the system
-*AccessServiceApi* | [**GetAllTenants**](docs\AccessServiceApi.md#getalltenants) | **POST** /API3/access/getAllTenants | Get all tenants and their related metadata
-*AccessServiceApi* | [**GetMe**](docs\AccessServiceApi.md#getme) | **POST** /API3/access/getMe | Returns the user info for the currently authenticated user
+*AccessServiceApi* | [**GetAllRoles**](docs/AccessServiceApi.md#getallroles) | **POST** /API3/access/getAllRoles | Get a list of all roles in the system
+*AccessServiceApi* | [**GetAllTenants**](docs/AccessServiceApi.md#getalltenants) | **POST** /API3/access/getAllTenants | Get all tenants and their related metadata
+*AccessServiceApi* | [**GetMe**](docs/AccessServiceApi.md#getme) | **POST** /API3/access/getMe | Returns the user info for the currently authenticated user
 *AccessServiceApi* | [**GetUsersByName**](docs\AccessServiceApi.md#getusersbyname) | **POST** /API3/access/getUsersByName | Returns a user object which matches the user's login name.
 *AuthenticationServiceApi* | [**AuthenticateUser**](docs\AuthenticationServiceApi.md#authenticateuser) | **POST** /API3/auth/authenticateUser | Generates an access authentication token for the given user to use the API functions or login to the application.
 *AuthenticationServiceApi* | [**AuthenticateUserByToken**](docs\AuthenticationServiceApi.md#authenticateuserbytoken) | **POST** /API3/auth/authenticateUserByToken | Generates an access authentication token for a given user without their password, using an administrative token to authorize login to the application instead.
